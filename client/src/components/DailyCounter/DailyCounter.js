@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { Twemoji } from 'react-emoji-render';
 import Counter from './counter';
-import './daily-counter.css';
 
 function DailyCounter() {
   const [ naps, setNaps ] = useState(0);
@@ -45,7 +43,6 @@ function DailyCounter() {
 
   return (
     <div className="form">
-
       <Counter
         title='Naps'
         emoji='sleeping'
@@ -74,7 +71,6 @@ function DailyCounter() {
         increase={() => increase('poo')}
         decrease={() => decrease('poo')}
       />
-
     </div>
   )
 }

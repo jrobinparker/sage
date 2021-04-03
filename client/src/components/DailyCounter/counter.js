@@ -1,7 +1,8 @@
 import React from 'react';
 import { Twemoji } from 'react-emoji-render';
+import './daily-counter.css';
 
-function Counter({ emoji, title, count, increase, decrease }) {
+export default function Counter({ emoji, title, count, increase, decrease }) {
   return (
     <div className="form-section">
       <Twemoji text={`:${emoji}:`} onlyEmojiClassName="emoji" />
@@ -21,6 +22,4 @@ function Counter({ emoji, title, count, increase, decrease }) {
       </div>
     </div>
   )
-}
-
-export default Counter;
+};
