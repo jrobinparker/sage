@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 15px 5px #DDE0E3;
+  box-shadow: 2px 2px 15px 5px #DDE0E3;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.counter {
+  display: flex;
+  width: 100px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter-button {
+  width: 25px;
+  height: auto;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #008381;
+  color: #F0EEE9;
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 2em;
+}

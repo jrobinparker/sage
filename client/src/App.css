@@ -2,3 +2,7 @@
   background: #F0EEE9;
   height: 100vh;
 }
+
+.app-container {
+  margin: 25px;
+}
