@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/navbar';
-import Form from './components/Form/form';
+import DailyCounter from './components/DailyCounter/DailyCounter';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <div className="app-container">
         <h1>Baby Riku</h1>
-        <Form/ >
+        <DailyCounter />
       </div>
     </div>
   );
