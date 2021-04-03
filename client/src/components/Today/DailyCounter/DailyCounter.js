@@ -21,6 +21,8 @@ function DailyCounter() {
       case 'poo':
         setPoo(prevPoo => prevPoo + 1);
         break;
+      default:
+        break;
     }
   }
 
@@ -37,6 +39,8 @@ function DailyCounter() {
         break;
       case 'poo':
         poo <= 0 ? setPoo(0) :  setPoo(prevPoo => prevPoo - 1);
+        break;
+      default:
         break;
     }
   }

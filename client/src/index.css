@@ -4,10 +4,10 @@ body {
   width: 100vw;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, button {
   font-family: 'Pacifico', cursive;
 }
 
-p, .form {
+p, textarea, .form {
   font-family: 'Montserrat', sans-serif;
 }
