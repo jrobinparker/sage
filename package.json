@@ -1,0 +1,25 @@
+{
+  "name": "sage",
+  "version": "1.0.0",
+  "description": "Baby tracker app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrobinparker/sage.git"
+  },
+  "author": "Jeremy Parker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrobinparker/sage/issues"
+  },
+  "homepage": "https://github.com/jrobinparker/sage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
