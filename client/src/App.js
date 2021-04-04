@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Navbar/navbar';
 import TodayContainer from './components/Today/TodayContainer/TodayContainer';
 import './App.css';
@@ -6,8 +7,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <Router>
       <Navbar />
-      <TodayContainer/ >
+        <Switch>
+          <Route exact path='/today'>
+            <TodayContainer/ >
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
