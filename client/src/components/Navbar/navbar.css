@@ -1,9 +1,11 @@
 nav {
+  position: relative;
   background-color: #008381;
   color: #F0EEE9;
   display: flex;
   justify-content: center;
   width: 100vw;
+  z-index: 900;
 }
 
 .nav-items {
@@ -19,6 +21,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
+  cursor: pointer;
+  z-index: 900;
 }
 
 .line {
