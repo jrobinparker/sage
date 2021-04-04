@@ -19,7 +19,12 @@ function Menu({ display, toggle }) {
             >
               <span>Today's Log</span>
             </Link>
-            <span>All Logs</span>
+            <Link
+              to='/history'
+              onClick={() => toggle()}
+            >
+              <span>History</span>
+            </Link>
             <span>Milestones</span>
             <span>Photos</span>
             <span>Logout</span>

@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #939597;
+}
+
+thead {
+  background-color: #939597;
+  color: #F0EEE9;
+  font-size: 1.25em;
+}
+
+thead th {
+  margin: 0;
+}
+
+thead th, tbody td {
+  padding: 10px;
+}
+
+.table-emoji {
+  font-size: 1em;
+  cursor: pointer;
+}

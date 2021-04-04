@@ -8,10 +8,15 @@ h1, h2, h3, h4, h5, button {
   font-family: 'Pacifico', cursive;
 }
 
-p, textarea, li, .form, .menu-items {
+p, textarea, li, .form, .menu-items, table {
   font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+    margin: 25px;
+    height: 100%;
 }
